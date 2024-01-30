@@ -3,8 +3,7 @@ select top 1 * from employee
 order by levels desc
 
 
--- Q2.  Which countries have the most Invoices?
-
+-- Q2.  Which countries have the most Invoices?
 select top 1
 	   billing_country,
 	   count(billing_country) as cnt_country
